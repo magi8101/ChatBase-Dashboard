@@ -84,8 +84,8 @@ def plt_to_streamlit(fig, use_container_width=True):
     plt.close(fig)
 
 # Supabase credentials
-SUPABASE_URL = "https://svjindgyokubrdxesdlp.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN2amluZGd5b2t1YnJkeGVzZGxwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzk1OTM2MTQsImV4cCI6MjA1NTE2OTYxNH0.P_giMWMPtnBT4Ca7AsHCcuNtoV0OWgsY6VHTqDqh0Sw"
+SUPABASE_URL = "your_SUPABASE_URL_should be same as backend"
+SUPABASE_KEY = "your_SUPABASE_KEY_should be same as backend"
 
 @st.cache_resource
 def get_supabase_client():
